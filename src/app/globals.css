@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 33% 96%;
+    --foreground: 12 18% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 12 18% 16%;
+    --primary: 348 42% 28%;
+    --primary-foreground: 36 33% 96%;
+    --secondary: 22 38% 82%;
+    --secondary-foreground: 348 42% 22%;
+    --muted: 30 20% 92%;
+    --muted-foreground: 12 10% 42%;
+    --accent: 32 38% 58%;
+    --accent-foreground: 12 18% 16%;
+    --border: 22 18% 86%;
+    --ring: 348 42% 28%;
+    --radius: 1rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .section-pad {
+    @apply mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24;
+  }
+
+  .kicker {
+    @apply text-[11px] font-semibold uppercase tracking-[0.22em] text-primary;
+  }
+
+  .display-title {
+    @apply font-display text-balance text-4xl font-medium leading-[1.05] sm:text-5xl lg:text-6xl;
+  }
+
+  .media-frame {
+    @apply relative overflow-hidden rounded-2xl border border-border bg-muted;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}

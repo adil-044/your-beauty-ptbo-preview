@@ -1,0 +1,47 @@
+{
+  "rating": 5,
+  "reviewsCount": 41,
+  "pillars": [
+    {
+      "id": "laser",
+      "title": "Laser Hair Removal",
+      "blurb": "Cynosure Vectus™ + Skintel®. Full body $250/session. $50 off first + free consult.",
+      "image": "/media/laser-promo.jpg",
+      "href": "/book#laser"
+    },
+    {
+      "id": "waxing",
+      "title": "Waxing",
+      "blurb": "Brazilian $50 · Full body $160. Clean, comfortable, inclusive.",
+      "image": "/media/waxing.jpg",
+      "href": "/book#waxing"
+    },
+    {
+      "id": "nails",
+      "title": "Nails & Lashes",
+      "blurb": "Builder gel, nail art, lash lift & tint. Book your artist.",
+      "image": "/media/nails-01.jpg",
+      "href": "/book#nails"
+    }
+  ],
+  "services": [
+    { "name": "Full Body Laser", "price": "$250/session", "note": "$50 off first · Free consult", "image": "/media/laser-promo.jpg", "book": "laser" },
+    { "name": "Full Body Wax", "price": "$160", "note": "Brazilian from $50", "image": "/media/waxing.jpg", "book": "waxing" },
+    { "name": "Brow Wax", "price": "$20", "note": "Quick refresh", "image": "/media/lashes.jpg", "book": "facials" },
+    { "name": "Lash Lift & Tint", "price": "$90", "note": "Low-maintenance lift", "image": "/media/lashes.jpg", "book": "lashes" },
+    { "name": "Signature Facial", "price": "$120", "note": "60 min · Custom to your skin", "image": "/media/hero-studio.jpg", "book": "facials" },
+    { "name": "Nail Art", "price": "From menu", "note": "20% off art in promos", "image": "/media/nails-02.jpg", "book": "nails" }
+  ],
+  "featuredReviews": [
+    { "text": "So professional and welcoming. The laser consult was thorough — I finally feel confident about my treatment plan.", "author": "Fresha guest", "rating": 5 },
+    { "text": "Best wax I've had in Peterborough. Quick booking, clean studio, and they actually listen.", "author": "Fresha guest", "rating": 5 },
+    { "text": "Avreyal's nail designs are incredible. The studio feels so calm and the team is lovely.", "author": "Fresha guest", "rating": 5 }
+  ],
+  "marketing": [
+    { "title": "IG-to-site consistency", "body": "Your reels sell results — your site should match. We align colours, offers, and booking paths with what clients already see on Instagram." },
+    { "title": "Local search visibility", "body": "Google Business, Fresha, and your domain working together so Peterborough clients find you first — not the competitor down Chemong." },
+    { "title": "Conversion-first booking", "body": "One-tap service selection beats a heavy checkout funnel. We build mobile flows that get clients into your chair faster." }
+  ],
+  "team": ["@shelbybaker.esthetics", "@avreyal.esthetics", "@miss.morgan.beauty", "@rideordyeptbo"],
+  "gallery": ["/media/nails-01.jpg", "/media/nails-02.jpg", "/media/nails-03.jpg", "/media/hero-studio.jpg", "/media/studio-open.jpg", "/media/melanin-laser.jpg"]
+}
