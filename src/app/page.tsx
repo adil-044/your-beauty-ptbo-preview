@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Star, Sparkles } from "lucide-react";
+import { ArrowUpRight, Star } from "lucide-react";
 import { BeforeAfter } from "@/components/BeforeAfter";
 import { Reveal } from "@/components/Reveal";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -128,34 +128,6 @@ export default function HomePage() {
           <Reveal delay={0.08}>
             <BeforeAfter src="/media/before-after.jpg" alt="Laser before and after" />
           </Reveal>
-        </div>
-      </section>
-
-      {/* Marketing help — Uptisement positioning */}
-      <section className="border-y border-border bg-primary text-primary-foreground">
-        <div className="section-pad">
-          <Reveal>
-            <div className="flex items-center gap-2 text-secondary">
-              <Sparkles className="h-4 w-4" />
-              <p className="kicker !text-secondary">Tailored marketing for salons</p>
-            </div>
-            <h2 className="mt-3 font-display text-4xl sm:text-5xl">We help local beauty studios grow</h2>
-            <p className="mt-4 max-w-2xl text-primary-foreground/75">
-              Uptisement builds sites, booking flows, and light marketing for Peterborough salons — so your IG story and your website tell the same promise.
-            </p>
-          </Reveal>
-          <div className="mt-10 grid gap-4 md:grid-cols-3">
-            {site.marketing.map((m, i) => (
-              <Reveal key={m.title} delay={i * 0.06}>
-                <Card className="h-full border-primary-foreground/15 bg-primary-foreground/5 text-primary-foreground">
-                  <CardHeader>
-                    <CardTitle className="text-xl text-primary-foreground">{m.title}</CardTitle>
-                    <CardDescription className="text-primary-foreground/70">{m.body}</CardDescription>
-                  </CardHeader>
-                </Card>
-              </Reveal>
-            ))}
-          </div>
         </div>
       </section>
 

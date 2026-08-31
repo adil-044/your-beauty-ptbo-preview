@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pages": "GH_PAGES=1 next build && node scripts/gh-pages-404.js",
     "start": "next start",
     "lint": "next lint"
   },

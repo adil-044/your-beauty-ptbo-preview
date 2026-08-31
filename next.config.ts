@@ -5,6 +5,7 @@ const isGhPages = process.env.GH_PAGES === "1";
 
 const nextConfig: NextConfig = {
   output: "export",
+  trailingSlash: true,
   images: { unoptimized: true },
   env: {
     NEXT_PUBLIC_BASE_PATH: isGhPages ? `/${repo}` : "",
